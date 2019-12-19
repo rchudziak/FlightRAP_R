@@ -1,0 +1,7 @@
+@EndUserText.label: 'Read-Only E2E: SD for Managing Flights'
+define service ZFLIGHT_R {
+  expose ZI_CONNECTION_R as Connection;
+  expose ZI_FLIGHT_R as Flight;
+  expose ZI_CARRIER as Airline;
+  expose ZI_AIRPORT as Airport;
+}
